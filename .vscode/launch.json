@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Start React (port 3000)",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}/src"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Start Live Server (port 5500)",
+            "url": "http://localhost:5500",
+            "webRoot": "${workspaceFolder}/src"
+        }
+    ]
+}
